@@ -1,0 +1,21 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    namespace = "com.example.streamlituploader"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.example.streamlituploader"
+        minSdk = 23
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0"
+    }
+}
+
+dependencies {
+    implementation("androidx.browser:browser:1.8.0")
+}
